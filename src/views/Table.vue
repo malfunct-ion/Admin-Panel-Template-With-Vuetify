@@ -1,7 +1,7 @@
 <template>
-  <div class="about-page">
+  <div class="table-page">
     <v-breadcrumbs :items="items" large class="pa-0 mb-3"></v-breadcrumbs>
-    <h1>About Page</h1>
+    <h1>Table Page</h1>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 // @ is an alias to /src
 
 export default {
-  name: "About",
+  name: "Table",
   components: {},
   data: () => ({
     items: [
@@ -19,9 +19,9 @@ export default {
         href: "/",
       },
       {
-        text: "About Page",
+        text: "Table Page",
         disabled: true,
-        href: "/about",
+        href: "/table",
       },
     ],
   }),
